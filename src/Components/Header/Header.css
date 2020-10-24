@@ -1,0 +1,64 @@
+.navbar {
+  margin-bottom: 0px;
+}
+nav.Nav.navbar.navbar-expand-lg.navbar-light {
+  height: 7rem;
+}
+span.navbar-brand {
+  padding: 3rem;
+  font-weight: 500;
+}
+input.ta1.form-control {
+  padding: 1rem;
+  margin: 2rem;
+}
+span.logoutSpan {
+  float: right;
+  padding: 3rem;
+  font-weight: 500;
+}
+div#tbtn {
+  height: 100%;
+}
+.formHeader.form-group {
+    display: contents;
+}
+.makeStyles-root-194 {
+  width: 100%;
+  max-width: 36ch;
+  height: 889px;
+}
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 8px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Nav {
+  background: #c7cbd2;
+}
+#basic-navbar-nav {
+  justify-content: flex-end;
+}
+@media only screen and (max-width:911px){
+  nav.Nav.navbar.navbar-expand-lg.navbar-light {
+    height: 12rem;
+  }
+  span.logoutSpan {
+    float: initial;
+  }
+  input.ta1.form-control {
+    margin: 1.5rem;
+  }
+}
+@media only screen and (max-width:601px){
+  nav.Nav.navbar.navbar-expand-lg.navbar-light {
+    height: 15rem;
+  }
+}
+@media only screen and (max-width:425px){
+  nav.Nav.navbar.navbar-expand-lg.navbar-light {
+    height: 25rem;
+  }
+}

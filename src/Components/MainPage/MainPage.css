@@ -1,0 +1,33 @@
+.divMainPage {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  margin-top: 7rem;
+  border: 5px solid black;
+}
+.left {
+  left: 0;
+  background-color: #ffffff;
+}
+.right {
+  right: 0;
+  background-color: #ffffff;
+}
+@media only screen and (max-width:911px){
+  .divMainPage {
+    margin-top: 12rem;
+  }
+}
+@media only screen and (max-width:601px){
+  .divMainPage {
+    margin-top: 15rem;
+  }
+}
+@media only screen and (max-width:425px){
+  .divMainPage {
+    margin-top: 25rem;
+  }
+}
